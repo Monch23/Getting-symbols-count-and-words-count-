@@ -84,6 +84,8 @@ int main() {
             }
         }
     }
+
+    munmap(shMem, 4096);
     
     return 0;
 }
